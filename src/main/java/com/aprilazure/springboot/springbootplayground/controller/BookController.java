@@ -13,6 +13,6 @@ public class BookController {
 	
 	@GetMapping("/books")
 	public List<Book> getAllBooks(){
-		return Arrays.asList(new Book(1l, "book name", "book author")); 
+		return Arrays.asList(new Book(1l, "book name 2", "book author")); 
 	}
 }
